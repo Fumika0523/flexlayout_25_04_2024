@@ -1,0 +1,106 @@
+.navbar{
+   display: flex;
+   background-color:#768e45;
+   justify-content: space-between;
+   height: 45px;
+}
+
+.navbarItem{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 15%;
+    justify-content: space-between;
+}
+
+.navbarsubitem{
+    width: 7%;
+    font: 20px;
+    /* border: 2px solid red; */
+    margin-right: 0.8%;
+}
+
+.navchild{
+    align-content: center;
+    color: white;
+    margin: 0 5%;
+}
+
+.linkSection{
+    width: 20%;
+    background-color: rgb(246, 235, 220);
+    padding-top: 1%;
+}
+
+.linkChild{
+    color: #768e45;
+    align-content: center;
+    padding-left: 4%;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+}
+.contentBody{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid orange; */
+    width: 90%;
+}
+.welcomeSection{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    margin: 1%;
+}
+.welcomeTitle{
+    font-weight: bold;
+    font-size: 20px;
+    /* border: 2px solid purple; */
+}
+
+.welcomeContent{
+    margin-top: 1%;
+    /* border: 2px solid blue; */
+}
+
+.ourService{
+    display:flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    margin-left: 1%;
+}
+
+.serviceTitle{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.serviceOption{
+    display: flex;
+}
+.option{
+    font-weight: bold;
+    font-size: 15px;
+    margin:1% 0 1% 0;
+    /* border: 2px solid blue; */
+}
+.webDesign{
+    /* border: 2px solid purple; */
+    margin-right: 1%;
+}
+.optionImage{
+    height: 200px;
+    width: 100%;
+    display: flex;
+}
+
+.footer{
+    background-color: #768e45;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+.madeBy{
+    color: white;
+    font-size: 15px;
+    align-content: center;
+}
